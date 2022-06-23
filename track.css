@@ -1,0 +1,27 @@
+body {
+    background-image: url("track1.jpg");
+    background-color: #cccccc;
+}
+
+
+#main-header{
+    font-size: 15px;
+   background-color: rgba(254, 254, 254, 0.801);
+   text-align: center;
+   padding-top:20px;
+   width: 60%;
+   margin:auto;
+   padding-bottom:20px;
+   
+}
+.track{
+    align-items: flex-start;
+    font-size: 20px;
+    background-color: rgba(232, 237, 243, 0.651);
+   
+    width: 50%;
+    margin:auto;
+    padding-top:25px;
+   text-align: center;
+   padding-bottom:25px;
+}

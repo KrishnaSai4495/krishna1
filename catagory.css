@@ -1,0 +1,49 @@
+.catagory{
+    align-items:  flex-start;
+  font-size: 15px;
+  font-style:normal;
+  text-align: center;
+  background-color: rgba(32, 100, 156, 0.959);
+  width: 60%;
+  margin:auto;
+  padding: 30px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial;
+}
+.video-containier{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.showcase{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.catagory input[type="button"]{/* button code*/
+    align-items: flex-start;
+    font-size: larger;
+    font-style: italic;
+   background-color:grey;
+   color:black;
+   padding:20px;
+   margin: 2px;
+   border-radius: 50px;
+    cursor: pointer;
+
+}  

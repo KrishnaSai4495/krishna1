@@ -1,0 +1,27 @@
+body  {
+  background-image: url("sample1.jpg");
+  background-color: #cccccc;
+  }
+
+#main-header{
+    font-size: 20px;
+   background-color: rgba(129, 238, 129, 0.507);
+   text-align: center;
+   padding-top:20px;
+   width: 60%;
+   margin:auto;
+   padding-bottom:20px;
+   
+}
+
+.form{
+    align-items: flex-start;
+      font-size: 20px;
+      background-color: rgba(33, 82, 139, 0.651);
+      color:white;
+      width: 50%;
+      margin:auto;
+      padding-top:25px;
+     text-align: center;
+     padding-bottom:25px;
+}

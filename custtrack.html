@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" 
+            href="login.css"> 
+        <title>
+            
+        </title>
+    </head>
+    <body>
+        <div class="showcase">
+            <div class="video-containier">
+                <video autoplay muted loop id="myVideo">
+                    <source src="tra2.mp4" type="video/mp4">
+                    
+                  </video>
+
+            </div>
+        </div>
+        <div class="container">
+            <h2> Track</h2>
+            <div class="user-box">
+                <form action="custtrack.php" method="post">
+                    <label>please provide phone number</label>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <br>
+                    <br>
+                        <input type="submit" value="Submit">
+                        <input type="button" onclick="myFunctionn()" value="Return" id="Return">
+                </form>
+            </div>
+           
+          </div>
+          <footer id="main-footer">
+            <p>Copyright &copy;2021 belongs to CSE department <a href="admin.html" >.</a></p>
+            
+          </footer>
+          <script>
+            function myFunctionn() {
+          location.replace("index.html")
+        }
+        </script>
+    </body>
+
+</html>

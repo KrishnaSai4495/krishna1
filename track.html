@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" 
+  href="track.css"> 
+        <title> KS Tracking</title>
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="first">
+                <h1> KS Tracking</h1>
+                <h4> Enter the Customer Details</h4>
+            </div>
+        </header>
+        <br>
+        <br>
+        <br>
+        <div class="track">
+            <form action="track.php" method="post">
+                <label>Enter phone number</label>
+                <input type="number" name="phone" id="phone">
+                <br>
+                <br>
+                <label> Enter location</label>
+                <input type="text" name="text" id="text">
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="button" onclick="myFunctionn1()" value="Return" id="Return">
+            </form>
+        </div>
+        <script>
+             function myFunctionn1() {
+          location.replace("next.html")
+        }
+        
+        </script>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+
+<html>
+<head>
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.zoom:hover
+{
+transition: transform 0.6s;
+transform: scale(1.07);
+}
+</style>
+<title> Website
+</title>
+
+</head>
+
+<body bgcolor="#F1F3F6">
+
+<table >
+
+
+
+
+<th width="15.5%">
+<div class="dropdown">
+<span> ELECTRONICS</span>
+<div class="dropdown-content">
+ <select id="select-id">
+  <option value="" selected="">ELECTRONICS</option>
+  <option value="te.html">mobiles</option>
+  <option value="pods.html">earpods</option>
+  <option value="tv.html">tv's</option>
+ </select>
+<button onclick="siteRedirect()">
+submit</button>
+
+<script>
+  function siteRedirect() {
+    var selectbox = document.getElementById("select-id");
+    var selectedValue = selectbox.options[selectbox.selectedIndex].value;
+    window.location.href = selectedValue;
+  }
+
+</script>
+
+</div>
+</div>
+</th>
+
+
+
+
+<th width="12.5%">
+<div class="dropdown">
+<span> MEN</span>
+<div class="dropdown-content">
+    <p>Hello world!</p>
+<p>Hello world!</p>
+    <p>Hello world!</p>
+<p>Hello world!</p>
+</div>
+</div>
+</th>
+
+<th width="12.5%">
+<div class="dropdown">
+<span> WOMEN</span>
+<div class="dropdown-content">
+    <p>Hello world!</p>
+<p>Hello world!</p>
+    <p>Hello world!</p>
+<p>Hello world!</p>
+</div>
+</div>
+</th>
+
+<th width="12.5%">
+<div class="dropdown">
+<span> BABY & KIDS</span>
+<div class="dropdown-content">
+    <p>Hello world!</p>
+<p>Hello world!</p>
+    <p>Hello world!</p>
+<p>Hello world!</p>
+</div>
+</div>
+</th>
+
+<th width="12.5%">
+<div class="dropdown">
+<span> SPORTS,BOOKS &MORE</span>
+<div class="dropdown-content">
+    <p>Hello world!</p>
+<p>Hello world!</p>
+    <p>Hello world!</p>
+<p>Hello world!</p>
+</div>
+</div>
+</th>
+
+<th width="12.5%">
+<div class="dropdown">
+<span> OFFER  ZONE</span>
+<div class="dropdown-content">
+    <p>Hello world!</p>
+<p>Hello world!</p>
+    <p>Hello world!</p>
+<p>Hello world!</p>
+</div>
+</div>
+</th>
+
+
+
+<br><br>
+<table border="0" width="100%/" bgcolor="white">
+</html>

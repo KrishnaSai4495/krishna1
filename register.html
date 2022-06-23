@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" 
+        href="register.css"> 
+        <title> Registration Page</title>
+    </head>
+    <body>
+        <header id="main-header">
+            <div class="first">
+                <h1> Welcome to KS Mart</h1>
+                <h3> Thankq for showing insterst</h3>
+                <p> There couple of minutes to complete the registration</p>
+            </div>
+        </header>
+        <br>
+        <br>
+        <div class="form">
+            <form action="restration.php" method="post">
+                <label>Enter the name</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <br>
+                <label> Enter Password</label>
+                <input type="password" name="password" id="password">
+                <br>
+                <br>
+                <label> Enter Phone number</label>
+                <input type="number" name="phone" id="phone">
+                <br>
+                <br>
+                <label>Choose Gender:</label>
+                <select name="Gender" id="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+                <br>
+                <br>
+                <label>Please choose the City</label>
+                <br>
+                <br>
+                <input type="radio" id="Guntur" name="city" value="Guntur">
+                     <label for="html">Guntur</label><br>
+                    <input type="radio" id="Vijayawada" name="city" value="Vijayawada">
+                    <label for="css">Vijayawada</label><br>
+                    <input type="radio" id="Tenali" name="city" value="Tenali">
+                    <label for="javascript">Tenali</label>
+                    <br>
+                    <br>
+                    <label for="email">Enter your email</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="button" onclick="FFunction()" name="Return to home" value="Return">
+            </form>
+            <br>
+            <br>
+        </div>
+        <script>
+            function FFunction() {
+              location.replace("index.html")
+            }
+        </script>
+
+    </body>
+</html>
